@@ -1,0 +1,25 @@
+.moretool_in {
+    display: flex;
+    align-items: center;
+    padding: 0px 7px;
+}
+
+.moretool_in > .MuiSvgIcon-root {
+    margin-right: 10px;
+    color: #2874f0;
+}
+
+.moretool > hr {
+    margin-left: -10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    background-color: rgb(233,233,233);
+    height: 0.5px;
+    width: 108.5%;
+    border: none;
+}
+
+.moretool_in:hover {
+    background-color: rgb(245,243,243);
+    cursor: pointer;
+}

@@ -1,0 +1,158 @@
+.footer_container {
+    background-color: #172337;
+    min-width: 978px;
+    border-top: 1px solid #ddd;
+    margin-top: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+
+.footer_part {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.total_details {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.top_details {
+    display: inline-block;
+    vertical-align: top;
+    width: 100%;
+    color: #565656;
+    background-color: #fff;
+    text-align: left;
+    margin: 0 auto;
+    padding: 25px;
+}
+
+.side_title {
+    color: #848484;
+    font-weight: 500;
+    margin-top: 14px;
+    padding: 14px 0;
+    font-family: Arial,sans-serif;
+}
+
+.title_link {
+    margin-left: 3px;
+    color: #565656;
+}
+
+.most_searched {
+    margin: 5px 0;
+}
+
+.items_title {
+    margin-right: 3px;
+    color: #848484;
+}
+
+.items_link {
+    padding: 0 5px;
+    border-right: 1px solid #333;
+    font-size: 12px;
+}
+
+.items_link:last-child {
+    border-right: none;
+}
+
+.details_container {
+    padding: 0 25px;
+    color: #878787;
+    background-color: #fff;
+    width: 100%;
+}
+
+.details_info {
+    font-size: 12px;
+    margin: 30px 0 15px;
+    line-height: 16px;
+}
+
+.info_container {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.info_link {
+    color: #2874f0;
+}
+
+.last_footer {
+    display: flex;
+    flex-flow: row wrap;
+    margin-left: 65px;
+    width: 90%;
+    padding-top: 40px;
+}
+
+.footer_details {
+    flex: 1;
+}
+
+.footer_help {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+    color: #878787;
+}
+
+.help_link {
+    line-height: 2;
+    color: #fff;
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.help_link:last-child {
+    border-bottom: 0;
+}
+
+.footer_address {
+    border-left: 1px solid #454d5e;
+    padding: 0 25px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+
+.location_name {
+    margin-bottom: 10px;
+    padding: 0;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.office_address {
+    margin-bottom: 10px;
+    padding-left: 14px;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.bottom_container {
+    width: 100%;
+    border-top: 1px solid #454d5e;
+    padding: 25px 0;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon_name {
+    color: #fff;
+    margin-left: 8px;
+}
+
+.copy_right {
+    color: #fff;
+}

@@ -1,0 +1,88 @@
+.fashion_containers {
+  padding: 16px;
+  overflow: auto;
+  max-width: 500px;
+  background-color: #fff;
+  border-radius: 3px;
+  left: -162px;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,.2);
+  top: 0px;
+  position: absolute;
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.fashion_details {
+  margin: -16px;
+}
+
+.left_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+.fashion_item {
+  position: relative;
+  min-width: 240px;
+}
+
+.fashion_link {
+  padding: 12px;
+  display: flex;
+  background: #fff;
+  justify-content: space-between;
+  color: black;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+.fashion_link:hover {
+  background-color: #f9f9f9;
+  color: #2874f0;
+  font-weight: 500;
+  padding: 12px;
+}
+
+.fashion_rightside {
+  padding: 12px;
+  min-width: 240px;
+  position: relative;
+  box-shadow: 0 4px 16px 0 rgba(0,0,0,.2);
+}
+
+.left_names {
+  color: #878787;
+  font-weight: 600;
+  margin-bottom: 24px;
+  font-size: 12px;
+}
+
+.fas-icon.MuiSvgIcon-root {
+  height: 14px;
+  width: 10px;
+  opacity: 0;
+}
+
+.fashion_item:hover .fas-icon.MuiSvgIcon-root {
+  opacity: 1;
+}
+
+
+.fashion_rightlink {
+  color: black;
+}
+
+.fashion_rightlink:hover {
+  color: #2874f0;
+}
+
+.fashion_rightlink {
+  padding: 12px;
+  display: flex;
+  background: #fff;
+  justify-content: space-between;
+  text-decoration: none;
+}
